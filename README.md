@@ -1,4 +1,5 @@
 # Spotify-clone
+<h3>Author-<b>Govind Dagadu Gadekar</b></h3>
  This is the clone of spotify using the HTML,CSS and JS
  <br>
  This is my Spotify clone where i was try to make the front-end of the website Spotify. 
