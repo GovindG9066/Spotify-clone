@@ -17,16 +17,10 @@ function formatTime(seconds) {
     return `${mins}:${secs}`;
 }
 
-// // Example usage
-// let timeInSeconds = 12; // Example: 12 seconds
-// console.log(formatTime(timeInSeconds)); // Output: "00:12"
-
-// timeInSeconds = 125; // Example: 125 seconds
-// console.log(formatTime(timeInSeconds)); // Output: "02:05"
 
 
 async function getsong() {
-    let a = await fetch("http://127.0.0.1:3000/songs/");
+    let a = await fetch("http://127.0.0.1:3002/songs/");
     let responce = await a.text()
     // console.log(responce);
 
